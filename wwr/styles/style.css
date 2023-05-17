@@ -1,95 +1,107 @@
-        div {
-            max-width: 1600px;
-        }
-        #content {
-            margin: 0 auto;
-        }
-        nav a {
-            text-align: center;
-            color: white;
-            text-decoration: none
-        }
-        #hero-msg h1 {
-            text-align: center;
-        }
-        #hero-msg h4 {
-            text-align: center;
-        }
-        .button-box {
-            text-align: center;
-        }
-        main section {
-            text-align: center;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Comme&family=Shadows+Into+Light&display=swap');
 
-        #background {
-            height: 725px;
-        }
-        body {
-            background-color: #284341;
-        }
-        header {
-            background-color: rgba(20,30,13, .7);
-        }
-        nav a:hover{
-            background-color: #396E94;
-            color: white;
-            text-decoration: underline;
-        }
-        .book, .join {
-            background-color: #396E94;
-            color:white;
-            text-decoration: none;
-        }
-        .book:hover, .join:hover {
-            background-color: #284341;
-            color: white;
-            text-decoration: underline;
-        }
-        #background {
-            background-color: #2f3d3c;
-        }
-        .msg {
-            background-color: #396E94;
-        }
-        footer {
-            background-color: #396E94;
-            color: white;
-        }
-        .home-title {
-            color: white;
-        }
-        h4 {
-            color:beige;
 
-        }
-        .msg h2{ 
-            color:beige;
-        }
-        .msg p {
-            color:white;
-        }
-        footer a {
-            color:beige;
-            text-decoration: none;
-        }
-        footer a:hover {
-            color:beige;
-            text-decoration: underline;
-        }
-        .icon {
-            width: 80px;
-        }
-        #hero-img {
-            width: 100%;
-        }
-        .logo {
-            width: 80px;
-        }
-        footer p {
-            font-size: 1.2em;
-        }
-        footer p a:hover {
-            text-decoration: underline;
-        }
+
+div {
+        max-width: 1600px;
+}
+#content {
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+body {
+    background-color: #284341;
+    font-family: "Comme", "Helvetica", "sans-serif";
+    font-size: 22px;
+}
+header {
+    background-color: rgba(20,30,13, .7);
+    font-family: "Shadows Into Light", "Brush Script MT", cursive, "Arial";
+}
+nav a:hover{
+    background-color: #396E94;
+    color: white;
+    text-decoration: underline;
+}
+.book, .join {
+    background-color: #396E94;
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.book:hover, .join:hover {
+    background-color: #284341;
+    color: white;
+    text-decoration: underline;
+}
+#background {
+    background-color: #2f3d3c;
+}
+.msg {
+    background-color: #396E94;
+    line-height: 1.5em;
+}
+footer {
+    background-color: #396E94;
+    color: white;
+}
+.home-title {
+    color: white;
+    font-family: "Shadows Into Light", "Brush Script MT", cursive, "Arial";
+    font-size: 2em;
+}
+h4 {
+    color:beige;
+}
+.msg h2{ 
+    color:beige;
+    font-family: "Shadows Into Light"; 
+}
+.msg p {
+    color:white;
+    font-size: 8em;
+}
+footer a {
+    color:beige;
+    text-decoration: none;
+}
+footer a:hover {
+    color:beige;
+    text-decoration: underline;
+}
+.icon {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+}
+.logo {
+    width: 80px;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
       
