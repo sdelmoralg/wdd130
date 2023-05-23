@@ -90,7 +90,7 @@ h4 {
 
 .msg h2{ 
     color:beige;
-    font-family: "Shadows Into Light"; 
+    font-family: "Shadows Into Light", "Brush Script MT", cursive, "Arial"; 
 }
 .msg p {
     color:white;
