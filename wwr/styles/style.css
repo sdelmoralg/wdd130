@@ -93,6 +93,8 @@ footer {
     font-family: "Shadows Into Light", "Brush Script MT", cursive, "Arial";
     font-size: 2em;
     margin-top: 10px;
+    text-align: center;
+    
 }
 h4 {
     color:beige;
@@ -199,6 +201,34 @@ nav {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #111d11;
 }
+
+/*Rivers Page*/
+
+
+.rivers-tittle {
+    text-align: center;
+    color: white;
+    font-family:  "Brush Script MT", cursive, "Shadows Into Light", "Arial";
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+
+.idaho-pic {
+    grid-column: 1;
+}
+
+.text p {
+    color:white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
 
 
 
