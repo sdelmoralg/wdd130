@@ -205,7 +205,7 @@ nav {
 /*Rivers Page*/
 
 
-.rivers-tittle {
+.rivers-title {
     text-align: center;
     color: white;
     font-family:  "Brush Script MT", cursive, "Shadows Into Light", "Arial";
@@ -216,18 +216,80 @@ nav {
 
 .rivers-grid {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 50px 1fr;
+    grid-template-rows: 1fr 50px 1fr 50px 1fr 50px;
 }
 
-.idaho-pic {
-    grid-column: 1;
-}
 
-.text p {
+.Idaho-text {
+    grid-column: 3/4;
+    grid-row: 1/2;
     color:white;
     font-size: .8em;
-    padding-bottom: 15px;
+    text-align: center;
+    align-self: center;
 }
+
+.Utah-text {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color:white;
+    font-size: .8em;
+    text-align: center;
+    align-self: center;
+}
+
+.Arizona-text {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    color:white;
+    font-size: .8em;
+    text-align: center;
+    align-self: center;
+}
+.pic-img {
+    box-shadow: 5px 5px 10px #111d11;
+    width:500px;
+}
+
+.Idaho-pic {   
+    grid-column:1/2;
+    grid-row:1/2 ; 
+    justify-self: center;
+    align-self: center;
+}
+
+.Utah-pic {
+    grid-column:3/4;
+    grid-row:3/4 ;
+    justify-self: center;
+    align-self: center;
+}
+
+.Arizona-pic {
+    grid-column:1/2;
+    grid-row:5/6 ;
+    justify-self: center;
+    align-self: center;
+}
+
+#backgroundrivers {
+    height: 500px;
+    background-color: #2f3d3c;
+    grid-column: 1/7;
+    grid-row: 1/2;
+}
+
+#backgroundrivers2 {
+    height: 500px;
+    background-color: #2f3d3c;
+    grid-column: 1/7;
+    grid-row: 5/6;
+}
+
+
+
+
 
 
 
@@ -273,4 +335,4 @@ nav {
         margin-top: 25px;
     }
 }
-            
+   
