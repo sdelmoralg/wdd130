@@ -6,7 +6,7 @@ header {
     font-family: "Bungee", "Roboto", "Arial";
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    background-color: #d5f3e2;
+    background-color: #bffeda;
 }
 
 div {
@@ -32,8 +32,9 @@ body {
 }
 
 nav a:hover{
-    background-color: #E5B07E;
-    color: white;
+    background-color: #fbb473;
+    color: #055ffa;
+    text-decoration:underline;
 }
 
 footer {
