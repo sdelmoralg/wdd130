@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@100&display=swap');
+
+
+
+header {
+    font-family: "Bungee", "Roboto", "Arial";
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color: #d5f3e2;
+}
+
+div {
+    max-width: 1600px;
+}
+
+#content {
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15px;
+}
+
+body {
+    background-color: #ecf7f8;
+    padding: 0;
+    margin: 0;
+}
+
+nav a:hover{
+    background-color: #E5B07E;
+    color: white;
+}
+
+footer {
+    background-color: #8FE0B2;
+    color: black;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+h1, h2 {
+    font-family: "Bungee", "Roboto", "Arial";
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: #fb8d26;
+}
+
+title {
+    grid-row: 1/2;
+    
+}
+
+.title2 {
+    grid-row: 4/5;
+    
+}
+
+.msg p, .msg2 p {
+    font-family: "Roboto", "Arial", "Calibri";
+    font-size: 1.2em;
+    background-color: #CCE0DF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    line-height: 1.5em;
+    box-shadow: 5px 5px 10px #0d1510;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.msg p {
+    grid-row: 3/4;
+}
+
+.msg2 p{
+    grid-row:5/6;
+    
+}
+
+.logo {
+    width: 150px;
+}
+
+
+.social img {
+    float: right;
+    padding-top: 50px;
+    width: 40px;
+    margin-right:20px;
+
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+    align-self: center;
+}
+
+.home-grid {
+    display: grid;  
+}
+
+.home-photo{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    grid-row: 2/3;
+    width: 300px;
+}
+
+.home-photo2 {
+    display: flex;
+    grid-row:6/7;
+    justify-self: center;
+    justify-content: center;
+    width: 300px;
+}
+
