@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@100&display=swap');
 
-
+/* Home page */
 
 header {
     font-family: "Bungee", "Roboto", "Arial";
@@ -123,5 +123,70 @@ nav {
     justify-self: center;
     justify-content: center;
     box-shadow: 2px 2px 10px;
+}
+
+
+/* Resources page */
+
+.container {
+    position: relative;
+    width: 50%;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.resources-grid {
+    display: grid;
+}
+
+.resources-msg p {
+    font-family: "Roboto", "Arial", "Calibri";
+    font-size: 1.2em;
+    background-color: #CCE0DF;
+    padding-bottom: 15px;
+    padding-top: 15px; 
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.8;
+    letter-spacing: .5px;
 }
 
