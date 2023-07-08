@@ -130,11 +130,10 @@ nav {
 
 .container {
     position: relative;
-    width: 50%;
+    width: 100%;
 }
   
 .image {
-    display: block;
     width: 100%;
     height: auto;
 }
@@ -145,11 +144,12 @@ nav {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
     width: 100%;
+    height: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
+    border-radius: 8px;
 }
   
 .container:hover .overlay {
@@ -169,11 +169,12 @@ nav {
 }
 
 img {
-  border-radius: 8px;
+    border-radius: 8px;
 }
 
 .resources-grid {
     display: grid;
+    grid-template-columns: 50px 1fr 50px 1fr 50px;
 }
 
 .resources-msg p {
@@ -190,3 +191,26 @@ img {
     letter-spacing: .5px;
 }
 
+.mlha {
+    grid-column: 2/3;
+    padding-top: 50px;
+}
+
+.tap {
+    grid-column: 4/5;
+    padding-top: 50px;
+}
+
+.mls {
+    grid-column: 2/3;
+    padding-top: 100px;
+}
+
+.opol {
+    grid-column: 4/5;
+    padding-top: 100px;
+}
+
+p {
+    padding-left: 70px;
+}
