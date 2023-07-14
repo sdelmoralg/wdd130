@@ -211,7 +211,7 @@ img {
     padding-top: 100px;
 }
 
-p2 {
+h5 {
     padding-left: 70px;
 }
 
@@ -262,7 +262,7 @@ p2 {
 .kids {
     grid-column: 1/2;
     grid-row: 3/5;   
-    padding-left: 100px;
+    padding-left: 80px;
 }
 
 .benefits, .disadvantages {
